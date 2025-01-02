@@ -2,7 +2,8 @@
 
 *.fig
 *.xd
-
+*.md
+design/
 .DS_Store
 .prettierignore
 
