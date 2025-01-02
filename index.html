@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+    rel="stylesheet">
+  <link rel="icon" href="assets/favicon.ico" type="image/x-icon" sizes="96x96" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Device Shop Checkout | devChallenges.io</title>
+
+</head>
+
+<body>
+  <img class="background-img" src="assets/background-image@2x.png" alt="">
+  <header class="header">
+    <h1 class="heading-text">Checkout</h1>
+    <p class="header__count">3 ITEMS</p>
+  </header>
+
+  <main class="main">
+    <section class="cart__items">
+      <div class="cart__item">
+        <div class="img-box">
+          <img class="cart__item-img" src="assets/Gold.png" alt="iPhone">
+        </div>
+        <div class="title-price info-line">
+          <span class="title">iPhone 12 Pro</span>
+          <span class="price">$999.00</span>
+        </div>
+        <div class="desc info-line">
+          <span class="desc-txt">Golden</span>
+        </div>
+        <div class="qty-delete info-line">
+          <span class="qty">x1</span>
+          <span class="delete">X</span>
+        </div>
+      </div>
+      <div class="cart__item">
+        <div class="img-box">
+          <img class="cart__item-img" src="assets/Apple-watch.png" alt="apple watch">
+        </div>
+        <div class="title-price info-line">
+          <span class="title">Apple Watch</span>
+          <span class="price">$399.00</span>
+        </div>
+        <div class="desc info-line">
+          <span class="desc-txt">Blue</span>
+        </div>
+        <div class="qty-delete info-line">
+          <span class="qty">x1</span>
+          <span class="delete">X</span>
+        </div>
+      </div>
+      <div class="cart__item">
+        <div class="img-box">
+          <img class="cart__item-img" src="assets/iMac.png" alt="iPhone">
+        </div>
+        <div class="title-price info-line">
+          <span class="title">iMac</span>
+          <span class="price">$1199.00</span>
+        </div>
+        <div class="desc info-line">
+          <span class="desc-txt">Green</span>
+        </div>
+        <div class="qty-delete info-line">
+          <span class="qty">x1</span>
+          <span class="delete">X</span>
+        </div>
+      </div>
+
+      <hr class="line">
+
+      <form class="cart__coupon" action="submit">
+        <input class="cart__coupon-input" type="text" placeholder="Enter coupon code">
+        <button class="cart__coupon-btn" type="submit">Apply Coupon</button>
+      </form>
+
+      <div class="cart__total">
+        <div class="sub-total">
+          <span class="sub-total__title">Sub total</span>
+          <span class="sub-total__price">$2597.00</span>
+        </div>
+        <div class="tax">
+          <span class="tax__title">Tax</span>
+          <span class="tax__price">$623.28</span>
+        </div>
+        <div class="total">
+          <span class="total__title">Total</span>
+          <span class="total__price">$3220.28</span>
+        </div>
+      </div>
+
+    </section>
+    <section class="cart__contact-info">
+      <h4 class="contact-info__title">Contact Information</h4>
+      <form class="contact-info__form" action="submit">
+        <label class="name__label" for="name">First & Last name</label>
+        <input class="name__input" type="text" id="name" placeholder="Enter first & Last name">
+
+        <label class="email__label" for="email">Email Address</label>
+        <input class="email__input" type="text" id="email" placeholder="Enter E-Mail Address">
+
+        <label class="country__label" for="country">Country</label>
+        <select class="country__input" type="option" id="country" placeholder="Country">
+          <option value="Finland">Finland</option>
+        </select>
+
+        <label class="postal__label" for="postal">Postal Code</label>
+        <input class="postal__input" type="text" placeholder="00270">
+        <button class="submit-contact-btn" type="submit">Continue</button>
+      </form>
+    </section>
+  </main>
+  <!--     
+    Checkout
+    
+    3 items
+    
+    iPhone 12 Pro
+    
+    Golden
+    
+    $999.00
+    
+    x 1
+    
+    Apple Watch
+    
+    Blue
+    
+    $399.00
+    
+    iMac
+    
+    Green
+    
+    $1199.00
+    
+    Enter coupon code
+    
+    Apply Coupon
+    
+    Sub total
+    
+    $2597.00
+    
+    Tax
+    
+    $623.28
+    
+    Total
+    
+    $3220.28
+    
+    Contact Information
+    
+    First & Last name
+    
+    Enter first & last name
+    
+    Email Address
+    
+    Enter email address
+    
+    Country
+    
+    Finland
+    
+    Postal Code
+    
+    00270
+    
+    Continue
+     -->
+
+  <!-- <div class="author-info">
+    Coded by <a href="#">Your Name Here</a> | Challenge by
+    <a href="https://www.devchallenges.io?ref=challenge" target="_blank">devChallenges.io</a>.
+  </div> -->
+</body>
+
+</html>
